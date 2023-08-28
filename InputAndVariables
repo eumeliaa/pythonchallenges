@@ -1,0 +1,6 @@
+Name = input("hi! what is your name? ")
+print("hello", Name)
+print()
+FreeTime = input("what do you like to do in your free time? ")
+print("woww", FreeTime, "seems fun")
+ 

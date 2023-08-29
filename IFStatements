@@ -1,0 +1,7 @@
+test = input("Is it raining? y/n ")
+if test in ["y","Y", "yes", "Yes", "YES"]:
+    print("Oh dear, no football today!")
+
+else:
+  if test in ("No", "no"):
+    print("Great we can play!")

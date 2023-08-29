@@ -1,0 +1,4 @@
+JennieKimBorn = 1996
+MyAge = int(input("When were you born?"))
+AgeDifference = MyAge - JennieKimBorn
+print("You are", AgeDifference, "years apart!!")

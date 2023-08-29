@@ -1,0 +1,10 @@
+TallHeight = 180
+MyHeight = int(input("What is your height? "))
+if MyHeight == TallHeight:
+  print("wow, ur really tall")
+
+elif MyHeight > TallHeight:
+  print("ur way too tall")
+
+else:
+  print("ur kinda short")

@@ -1,0 +1,9 @@
+number = 10
+while number <10 or number >0:
+  number = float(input(""))
+  print(number)
+
+while True:
+  FavSubject = input("what is your favourite subject? ")
+  if FavSubject == "computer science":
+     break 

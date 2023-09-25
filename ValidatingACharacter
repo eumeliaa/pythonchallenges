@@ -1,0 +1,5 @@
+yourinput = input("enter a character: ")
+if len(yourinput) == 1:
+    print("data valid")
+else:
+    print("data invalid")

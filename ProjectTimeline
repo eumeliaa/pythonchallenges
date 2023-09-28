@@ -1,0 +1,15 @@
+from datetime import date 
+
+year1 = int(input('please type the starting year: '))
+month1 = int(input('please type the starting month: '))
+day1 = int(input('please type the starting day: '))
+
+date1 = date(year1,month1,day1)
+
+year2 = int(input('please type the year completed: '))
+month2 = int(input('please type the month completed: '))
+day2 = int(input('please type the day it was completed: '))
+
+date2 = date(year2,month2,day2)
+
+print(str(date2 - date1), "days")

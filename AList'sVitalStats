@@ -1,0 +1,11 @@
+mylist = [5,10,15,20,25]
+
+print(sum(mylist))
+
+print(min(mylist))
+
+print(max(mylist))
+
+print(len(mylist))
+
+print(sum(mylist)/len(mylist))

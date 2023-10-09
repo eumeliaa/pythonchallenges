@@ -1,0 +1,6 @@
+MyList = ["pacman", "mario", "pikachu"]
+
+newvideogamecharacter = input("Please add a video game character: ")
+
+MyList.append(newvideogamecharacter)
+print(*MyList, sep=", ")

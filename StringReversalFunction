@@ -1,0 +1,18 @@
+#Create a function that returns the reverse of a string
+
+
+#either this
+
+def reverse(word):
+  print(word[::-1])
+
+reverse("hi!")
+
+#or this
+
+def reverse(word):
+  return word[::-1]
+
+x = reverse("hello!")
+print(x)
+

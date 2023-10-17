@@ -1,0 +1,18 @@
+#Create 2 functions to calculate and return the area and the circumference of the circle
+
+import math
+
+def func1(value1, value2):
+  return value1 * value2**2
+
+area = func1(math.pi, 5)
+area_r = round(area, 1)
+print(area_r)
+
+
+def func2(value3, value4):
+  return value3 * value4
+
+circumference = func2(math.pi, 5)
+circumference_r = round(circumference, 1)
+print(circumference_r)

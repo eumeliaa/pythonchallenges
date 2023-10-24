@@ -1,0 +1,41 @@
+#for loop linear search
+
+myArray = ["cake", "ice cream", "pie", "chocolate", "candy"]
+
+item = input('enter an item:')
+
+
+def search(item):
+
+  
+  for i in range(len(myArray)):
+    if myArray[i] == item:
+      return("Item found at position: ", i)
+
+
+  return("Item not found")
+  
+    
+
+print(search(item))
+
+
+#while loop linear search
+
+
+array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+number = int(input('enter a number: '))
+
+index = 0
+
+if array[index] != number:
+  print('item not found ')
+
+while index < len(array):
+  if array[index] != number:
+    index = index + 1
+
+  else: 
+    print('item found at position: ', index)
+    break

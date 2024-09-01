@@ -1,0 +1,22 @@
+# QUESTION: Create code to search up a monster. You will need to read the text file and enable people to search the file for a monster.
+
+file = open('monsters_simple.txt', 'r')
+
+searchname = input("Name of Monster: ")
+
+found = 'false'
+counter = 0
+
+for i in file:
+    data = i
+    for j in range(1,len(data)):
+        counter = counter + 1
+        if j == ',':
+            name = data[:counter-1]
+            if name == searchname:
+                print("Found at line", i)
+                found = 'true'
+
+
+if found == 'false':
+    print("Monster is not in the file")
